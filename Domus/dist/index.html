@@ -20,7 +20,9 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Domus</a>
+                
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="masthead-avatar mb-2" src="assets/img/avataaars.svg" alt="" style="max-width: 80px; max-height: 80px;" />  Domus</a>
+
                 <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-warning text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -29,16 +31,14 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Nosotros</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" data-toggle="modal" data-target="#iniciarsesion">Entrar</a></li>
-                        
-
-                        
+                       
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
         <div style="background: url(assets/img/portfolio/fondo3.jpg);background-size:cover; background-repeat: no-repeat;background-position-x: center;background-position-y: center;">
-            <br><br><br><br>
+            <br><br>
             <header class="masthead text-white text-center" style="text-shadow: 1px;">
                 <div class="container d-flex align-items-center flex-column">
                     
@@ -47,43 +47,42 @@
                     <!-- Icon Divider-->
                                     
                 </div>
-                <form action="POST" class="container flex-column" style="max-width: 500px;">
+                <form action="POST" class="container flex-column" style="max-width: 600px;">
                     
-                    <h2 class="page-section-heading text-center text-uppercase mb-0 " >Encontrá tu hogar</h2>
+                    <h2 class="page-section-heading text-center text-uppercase mb-0" >Encontrá tu hogar</h2>
                     <br>
-                    <!--
-                    <div class="filters-group-top css-display-f colapsed">
-                        <div class="operation-type-container;">
-                            <div class="dropdown-container operation-type-select">
-                                <i class="icon-g icon-g-chevron-down"></i>
-                                <label aria-label="Tipo de operacion">
-                                    <select data-qa="search-property-selector" name="" id="operationType">
-                                        <option value="1" data-tracking="Comprar">Comprar </option>
-                                        <option value="2" data-tracking="Alquilar">Alquilar </option>
-                                        
-                                    </select>
-                                    <select data-qa="search-property-selector" class="property-selector" id="propertyType">
-                                        <option data-qa="search-property-selector-item" value="Otros">Todos</option>
-                                        <option data-qa="search-property-selector-item" value="1">Casa</option>
-                                        <option data-qa="search-property-selector-item" value="2">Departamento</option>
-                                        <option data-qa="search-property-selector-item" value="11">Quinta</option>
-                                        <option data-qa="search-property-selector-item" value="32">Garage</option>
-                                        <option data-qa="search-property-selector-item" value="4">Oficina comercial</option>
-                                        <option data-qa="search-property-selector-item" value="5">Local comercial</option>
-                                        <option data-qa="search-property-selector-item" value="8">Bodega / Galpón</option>
-                                        <option data-qa="search-property-selector-item" value="45">Depósito</option>
-                                        <option data-qa="search-property-selector-item" value="14">Campo</option>
-                                        <option data-qa="search-property-selector-item" value="26">Terreno / Lote</option>
-                                        
-                                    </select>
-                                </label>
-                            </div>
-                        </div>
+                    <div class="" style="background-color: gray; opacity: 70%; border-radius: 20px; min-block-size: 175px;" >
                         
-                        <div class="search-box-container" data-qa="search-input">
-                            <div class="rbt clearfix open" tabindex="-1" style="position: relative;">
-                                <div class="rbt-input-hint-container" style="position: relative;">
-                                    <input aria-label="Buscá por ubicación o palabra clave" aria-autocomplete="both" aria-expanded="false" aria-haspopup="listbox" autocomplete="nope" placeholder="Buscá por ubicación o palabra clave" role="combobox" type="text" class="rbt-input-main form-control rbt-input " value="">
+                        <br>
+                        
+                        <label>
+                            <select style="border-radius: 5px;">
+                                <option value="1" data-tracking="Comprar">Comprar </option>
+                                <option value="2" data-tracking="Alquilar">Alquilar </option>
+                                
+                            </select>
+                            <select style="border-radius: 5px;">
+                                <option value="1" data-tracking="Todos">Todos </option>
+                                <option value="2" data-tracking="Casa">Casa </option>
+                                <option value="3" data-tracking="Departamento">Departamento </option>
+                                <option value="4" data-tracking="Quinta">Quinta </option>
+                                <option value="5" data-tracking="Garage">Garage </option>
+                                <option value="6" data-tracking="Oficinal comercial">Oficina comercial </option>
+                                <option value="7" data-tracking="Local comercial">Local comercial </option>
+                                <option value="8" data-tracking="Bodega/Galpón">Bodega/Galpón </option>
+                                <option value="9" data-tracking="Depósito">Depósito </option>
+                                <option value="10" data-tracking="Campo">Campo </option>
+                                <option value="11" data-tracking="Terreno/Lote">Terreno/Lote </option>
+                                
+                            </select>
+                        </label>
+                            
+                        
+                        <center>
+                        <div class="align-items-center"  style="max-width: 500px;" >
+                            <div style="">
+                                <div class="rbt-input-hint-container" style="">
+                                    <input aria-label="Buscá por ubicación o palabra clave" aria-autocomplete="both" aria-expanded="false" aria-haspopup="listbox" autocomplete="nope" placeholder="Buscá por ubicación o palabra clave" role="combobox" type="text" class="rbt-input-main form-control rbt-input" style="">
                                         <div class="rbt-input-hint" style="left: 0px; pointer-events: none; position: absolute; top: 0px; display: inline-block;">
                                             <input aria-hidden="true" readonly="" tabindex="-1" value="" style="background-color: transparent; border-color: transparent; box-shadow: none; color: rgba(0, 0, 0, 0.35); box-sizing: content-box; width: 3px; border-style: none; border-width: 0px; font-size: 12px; line-height: 13.8px; margin: 0px; padding: 0px 15px;">
                                             <div style="height: 0px; left: 0px; overflow: scroll; position: absolute; top: 0px; visibility: hidden; white-space: pre; font-size: 12px; font-family: Hind, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;">
@@ -93,189 +92,25 @@
                             </div>
                             <div aria-atomic="true" aria-live="polite" class="sr-only rbt-sr-status" role="status">0 selections</div>
                         </div>
+                        </center>
+                        <br>
+                            <a href="busqueda_filtrada.html" class="btn btn-outline-light" >
+                                Buscar
+                            </a> 
                     </div>
-                    <div class="apply-filters">
-                        <button data-qa="search-button" type="submit" class="submit-filters btn-primary btn-full ">Buscar</button>
-                    </div>
-                    </div>-->
-
-                    <div class="border-bottom color-border-secondary py-3">
-                        <a href="/new" class="d-md-none btn btn-primary d-flex flex-items-center flex-justify-center width-full mb-4">
-                          <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" height="16" width="16" class="octicon octicon-repo mr-1">
-                        <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
-                    </svg><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                          Nuevo
-                        </font></font></a>
+                      
                     
-                      <div class="d-flex flex-items-start">
-                        <!-- '"` --><!-- </textarea></xmp> --><form class="width-full" data-autosearch-results-container="user-repositories-list" aria-label="Repositorios" role="search" action="/extremecrazy" accept-charset="UTF-8" method="get">
-                          <div class="d-flex flex-column flex-lg-row flex-auto">
-                            <div class="mb-1 mb-md-0 mr-md-3 flex-auto">
-                              <input type="hidden" name="tab" value="repositories">
-                              <input type="search" id="your-repos-filter" name="q" class="form-control width-full" placeholder="Encuentra un repositorio…" autocomplete="off" aria-label="Encuentra un repositorio…" value="" data-throttled-autosubmit="">
-                            </div>
                     
-                            <div class="d-flex flex-wrap">
-                              <details class="details-reset details-overlay position-relative mt-1 mt-lg-0 mr-1" id="type-options">
-                                <summary class="btn" aria-haspopup="menu" role="button">
-                                  <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tipo</font></font></span>
-                                  <span class="d-none" data-menu-button=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                                    Todas
-                                  </font></font></span>
-                                  <span class="dropdown-caret"></span>
-                                </summary>
-                    
-                                <details-menu class="SelectMenu right-lg-0" role="menu">
-                                  <div class="SelectMenu-modal">
-                                    <header class="SelectMenu-header">
-                                      <span class="SelectMenu-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Seleccione tipo</font></font></span>
-                                      <button class="SelectMenu-closeButton" type="button" data-toggle-for="type-options"><svg aria-label="Cerrar menú" aria-hidden="false" role="img" viewBox="0 0 16 16" version="1.1" height="16" width="16" class="octicon octicon-x">
-                        <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
-                    </svg></button>
-                                    </header>
-                                    <div class="SelectMenu-list">
-                                        <label class="SelectMenu-item" role="menuitemradio" aria-checked="true" tabindex="0">
-                                          <input type="radio" name="type" id="type_" value="" hidden="hidden" data-autosubmit="true" checked="checked">
-                                          <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" height="16" width="16" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
-                        <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
-                    </svg>
-                                          <span class="text-normal" data-menu-button-text=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Todas</font></font></span>
-                                        </label>
-                                        <label class="SelectMenu-item" role="menuitemradio" aria-checked="false" tabindex="0">
-                                          <input type="radio" name="type" id="type_public" value="public" hidden="hidden" data-autosubmit="true">
-                                          <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" height="16" width="16" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
-                        <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
-                    </svg>
-                                          <span class="text-normal" data-menu-button-text=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Público</font></font></span>
-                                        </label>
-                                        <label class="SelectMenu-item" role="menuitemradio" aria-checked="false" tabindex="0">
-                                          <input type="radio" name="type" id="type_private" value="private" hidden="hidden" data-autosubmit="true">
-                                          <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" height="16" width="16" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
-                        <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
-                    </svg>
-                                          <span class="text-normal" data-menu-button-text=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Privado</font></font></span>
-                                        </label>
-                                        <label class="SelectMenu-item" role="menuitemradio" aria-checked="false" tabindex="0">
-                                          <input type="radio" name="type" id="type_source" value="source" hidden="hidden" data-autosubmit="true">
-                                          <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" height="16" width="16" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
-                        <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
-                    </svg>
-                                          <span class="text-normal" data-menu-button-text=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fuentes</font></font></span>
-                                        </label>
-                                        <label class="SelectMenu-item" role="menuitemradio" aria-checked="false" tabindex="0">
-                                          <input type="radio" name="type" id="type_fork" value="fork" hidden="hidden" data-autosubmit="true">
-                                          <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" height="16" width="16" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
-                        <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
-                    </svg>
-                                          <span class="text-normal" data-menu-button-text=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tenedores</font></font></span>
-                                        </label>
-                                        <label class="SelectMenu-item" role="menuitemradio" aria-checked="false" tabindex="0">
-                                          <input type="radio" name="type" id="type_archived" value="archived" hidden="hidden" data-autosubmit="true">
-                                          <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" height="16" width="16" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
-                        <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
-                    </svg>
-                                          <span class="text-normal" data-menu-button-text=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Archivado</font></font></span>
-                                        </label>
-                                        <label class="SelectMenu-item" role="menuitemradio" aria-checked="false" tabindex="0">
-                                          <input type="radio" name="type" id="type_mirror" value="mirror" hidden="hidden" data-autosubmit="true">
-                                          <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" height="16" width="16" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
-                        <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
-                    </svg>
-                                          <span class="text-normal" data-menu-button-text=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Espejos</font></font></span>
-                                        </label>
-                                    </div>
-                                  </div>
-                                </details-menu>
-                              </details>
-                    
-                                <details class="details-reset details-overlay position-relative mt-1 mt-lg-0" id="language-options">
-                                  <summary class="btn" aria-haspopup="menu" role="button">
-                                    <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Idioma</font></font></span>
-                                    <span class="d-none" data-menu-button=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                                      Todas
-                                    </font></font></span>
-                                    <span class="dropdown-caret"></span>
-                                  </summary>
-                    
-                                  <details-menu class="SelectMenu mt-1 mt-lg-0 mr-md-2 ml-md-2 right-lg-0" role="menu">
-                                    <div class="SelectMenu-modal">
-                                      <header class="SelectMenu-header">
-                                        <span class="SelectMenu-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Seleccione el idioma</font></font></span>
-                                        <button class="SelectMenu-closeButton" type="button" data-toggle-for="language-options"><svg aria-label="Cerrar menú" aria-hidden="false" role="img" viewBox="0 0 16 16" version="1.1" height="16" width="16" class="octicon octicon-x">
-                        <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
-                    </svg></button>
-                                      </header>
-                                      <div class="SelectMenu-list">
-                                        <label class="SelectMenu-item" role="menuitemradio" aria-checked="true" tabindex="0">
-                                          <input type="radio" name="language" id="language_" value="" hidden="hidden" data-autosubmit="true" checked="checked">
-                                          <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" height="16" width="16" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
-                        <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
-                    </svg>
-                                          <span class="text-normal" data-menu-button-text=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Todas</font></font></span>
-                                        </label>
-                                      </div>
-                                    </div>
-                                  </details-menu>
-                                </details>
-                    
-                              <details class="details-reset details-overlay position-relative mt-1 mt-lg-0 ml-1" id="sort-options">
-                                <summary class="btn" aria-haspopup="menu" role="button">
-                                  <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Clasificar</font></font></span>
-                                  <span class="d-none" data-menu-button=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                                    Última actualización
-                                  </font></font></span>
-                                  <span class="dropdown-caret"></span>
-                                </summary>
-                                <details-menu class="SelectMenu right-lg-0" role="menu">
-                                  <div class="SelectMenu-modal">
-                                    <header class="SelectMenu-header">
-                                      <span class="SelectMenu-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Seleccione el orden</font></font></span>
-                                      <button class="SelectMenu-closeButton" type="button" data-toggle-for="sort-options"><svg aria-label="Cerrar menú" aria-hidden="false" role="img" viewBox="0 0 16 16" version="1.1" height="16" width="16" class="octicon octicon-x">
-                        <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
-                    </svg></button>
-                                    </header>
-                                    <div class="SelectMenu-list">
-                                      <label class="SelectMenu-item" role="menuitemradio" aria-checked="true" tabindex="0">
-                                        <input type="radio" name="sort" id="sort_" value="" hidden="hidden" data-autosubmit="true" checked="checked">
-                                        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" height="16" width="16" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
-                        <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
-                    </svg>
-                                        <span class="text-normal" data-menu-button-text=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Última actualización</font></font></span>
-                                      </label>
-                                      <label class="SelectMenu-item" role="menuitemradio" aria-checked="false" tabindex="0">
-                                        <input type="radio" name="sort" id="sort_stargazers" value="stargazers" hidden="hidden" data-autosubmit="true">
-                                        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" height="16" width="16" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
-                        <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
-                    </svg>
-                                        <span class="text-normal" data-menu-button-text=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Estrellas</font></font></span>
-                                      </label>
-                                    </div>
-                                  </div>
-                                </details-menu>
-                              </details>
-                            </div>
-                          </div>
-                    </form>
-                        <div class="d-none d-md-flex flex-md-items-center flex-md-justify-end">
-                            <a href="/new" class="text-center btn btn-primary ml-3">
-                              <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" height="16" width="16" class="octicon octicon-repo">
-                        <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
-                    </svg><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                              Nuevo
-                            </font></font></a>
-                        </div>
-                      </div>
-                    </div>
                 </form>
             </header>
             <br><br><br><br>
         </div>
-        <div id="react-filters-form" class="filters-form"><form action="POST" class="layout-container"><h1 data-qa="home-title">Encontrá tu hogar</h1><div class="filters-group-top css-display-f colapsed"><div class="operation-type-container"><ul class="operation-type-menu"><li class="active" style="order: 0;"><button class="active" type="button" value="2" data-qa="search-option-alquilar" data-tracking="Alquilar"><div class="buttonContent"><p>Alquilar</p><span></span></div></button><span class="lineButton"></span></li><li class="" style="order: 1;"><button class="" type="button" value="1" data-qa="search-option-comprar" data-tracking="Comprar"><div class="buttonContent"><p>Comprar</p><span></span></div></button><span class="lineButton"></span></li><li class="" style="order: 2;"><button class="" type="button" value="desarrollosURL" data-qa="search-option-desarrollo" data-tracking="Emprendimientos"><div class="buttonContent"><p>Emprendimientos</p><span></span></div></button><span class="lineButton"></span></li></ul><div class="dropdown-container operation-type-select"><i class="icon-g icon-g-chevron-down"></i><label aria-label="Tipo de operacion"><select data-qa="search-property-selector" name="" id="operationType"><option value="2" data-tracking="Alquilar">Alquilar </option><option value="1" data-tracking="Comprar">Comprar </option><option value="desarrollosURL" data-tracking="Emprendimientos">Emprendimientos </option></select></label></div></div><div class="property-type-container"><div class="dropdown-container"><label aria-label="Tipo de propiedad"><i class="icon-g icon-g-chevron-down pointer-fix"></i><select data-qa="search-property-selector" class="property-selector" id="propertyType"><option data-qa="search-property-selector-item" value="1">Casa</option><option data-qa="search-property-selector-item" value="2">Departamento</option><option data-qa="search-property-selector-item" value="2001">PH</option><option data-qa="search-property-selector-item" value="11">Quinta</option><option data-qa="search-property-selector-item" value="32">Garage</option><option data-qa="search-property-selector-item" value="4">Oficina comercial</option><option data-qa="search-property-selector-item" value="5">Local comercial</option><option data-qa="search-property-selector-item" value="8">Bodega / Galpón</option><option data-qa="search-property-selector-item" value="45">Depósito</option><option data-qa="search-property-selector-item" value="14">Campo</option><option data-qa="search-property-selector-item" value="26">Terreno / Lote</option><option data-qa="search-property-selector-item" value="Otros">Todos</option></select></label></div></div><div class="search-box-container" data-qa="search-input"><div class="rbt clearfix open" tabindex="-1" style="position: relative;"><div class="rbt-input-hint-container" style="position: relative;"><input aria-label="Buscá por ubicación o palabra clave" aria-autocomplete="both" aria-expanded="false" aria-haspopup="listbox" autocomplete="nope" placeholder="Buscá por ubicación o palabra clave" role="combobox" type="text" class="rbt-input-main form-control rbt-input " value=""><div class="rbt-input-hint" style="left: 0px; pointer-events: none; position: absolute; top: 0px; display: inline-block;"><input aria-hidden="true" readonly="" tabindex="-1" value="" style="background-color: transparent; border-color: transparent; box-shadow: none; color: rgba(0, 0, 0, 0.35); box-sizing: content-box; width: 3px; border-style: none; border-width: 0px; font-size: 16px; line-height: 18.4px; margin: 0px; padding: 0px 15px;"><div style="height: 0px; left: 0px; overflow: scroll; position: absolute; top: 0px; visibility: hidden; white-space: pre; font-size: 16px; font-family: Hind, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div></div></div><div aria-atomic="true" aria-live="polite" class="sr-only rbt-sr-status" role="status">0 selections</div></div></div><div class="apply-filters"><button data-qa="search-button" type="submit" class="submit-filters btn-primary btn-full">Buscar</button></div></div></form></div>
+       
         
 
         
         <!-- About Section-->
-        <section class="page-section text-white mb-0" style="background-color: #0a2812;"  id="about">
+        <section class="page-section text-white mb-0" style="background-color: #1a252f;"  id="about">
             <div class="container">
                 <!-- About Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-white">Nosotros</h2>
@@ -292,7 +127,7 @@
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="inicio_sesion.html">
+                    <a class="btn btn-xl btn-outline-light" data-toggle="modal" data-target="#iniciarsesion">
                         Registrar
                     </a>
                 </div>
